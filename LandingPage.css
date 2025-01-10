@@ -1,0 +1,438 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+html {
+    scroll-snap-type: y mandatory; 
+  }
+  @viewport {
+    viewport-fit: cover;
+  }
+body{
+   margin: 0px;
+   padding: 0px;
+   min-height: 100vh;
+   min-width: 100%;
+}
+.page1{
+    height: 100vh; 
+    width: 95rem;
+    background-color: #F1F6F9;
+ }
+ .page2{
+    height: 120vh;
+    width: 95rem;
+    background-color: #F1F6F9;
+ }
+ .page3{
+   height: 120vh;
+  width: 95rem;
+  background-color: #F1F6F9;
+}
+.page4{
+  height: 120vh;
+ width: 95rem;
+ background-color: #F1F6F9;
+ margin-top: 3rem;
+}
+.container4{
+    height: 42rem;
+    min-width: 90rem;
+    background-color: #394867;
+    border-radius: 0rem  0rem 2rem 2rem;
+    margin-left: 3%;
+    color: aliceblue;
+    position: absolute;  
+}
+.container2{
+    height: 42rem;
+    width: 25rem;
+    background-color: #212A3E;
+    border-radius: 0rem  0rem 2rem 2rem;
+    position: absolute;
+    margin-left: auto;
+}
+.container2 .profile{
+    height: 20rem;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 18rem;
+    border: 1rem double #394867 ;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+.container2 .bg{
+    height: 12rem;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    padding: 1rem;
+}
+.bg1 .image{
+    position: absolute;
+    height: 30rem;
+    margin-left: 4.8rem;
+    margin-top: 5.2rem;
+    border-radius: 2rem  0rem 0rem 2rem;
+    display: block;
+}
+.menu{
+    order: 2;
+    display: flex;
+    float: right;
+}
+.menu li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family:"Bahnschrift";
+    float: right;
+}
+.navbar a{
+    color:#fffafa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+.navbar a:hover{
+    color: #80f0fb;
+}
+.container3{
+    margin-top: 10rem;
+    margin-left: 35rem;
+    height: 20rem;
+    width: 50rem;
+    font-family:"Bahnschrift";
+}
+.container3 p{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+.code{
+    color: #80f0fb;
+}
+.click{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: #F1F6F9;
+    font-size: 1rem;
+    font-family:"Bahnschrift";
+    cursor: pointer;
+    color: black;
+    text-decoration: none ;
+}
+.click:hover{
+    background-color: #80f0fb;
+}
+.click a:link{
+    text-decoration: none;
+    color: black;
+}
+.container5{
+    min-height: 42rem;
+    min-width: 90rem;
+    background-color: #394867;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: aliceblue;
+    position: absolute;
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.container6{
+  min-height: 57rem;
+  width: 90rem;
+  background-color: #394867;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: aliceblue;
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container7{
+  height: 45rem;
+  width: 90rem;
+  background-color: #394867;
+  margin-left: 0%;
+  margin-right: 3%;
+  color: aliceblue;
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container8{
+  height: 35rem;
+  width: 50rem;
+  margin: auto auto auto auto;
+  background-color: #212A3E;
+}
+.education{
+    height: 45rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: #212A3E;
+    margin: 3rem;  
+    position: absolute;
+    border-radius: 2rem;
+    text-align: center;
+
+    font-family:"Bahnschrift";
+}
+
+.small{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 3rem;
+    background-color: #212A3E;
+    margin: 3rem;  
+    border-radius: 2rem;
+}
+.certify{
+    display: flex;
+    height:40rem ;
+    width: 18rem;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scroll-snap-type: y mandatory;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+}
+.certify img{
+    height: 10rem;
+    padding: 1rem;
+   display: flex;
+   position: relative;
+   margin-left:0.8rem;
+   float: center;
+
+}
+
+.certify::-webkit-scrollbar {
+    width: 0.3em;
+
+  }
+  .project::-webkit-scrollbar {
+    height: 0.3rem;
+    margin: 2rem;
+
+  }
+
+  .certify::-webkit-scrollbar-track{
+    background-color: #212A3E;
+
+    
+  }
+  .project::-webkit-scrollbar-track{
+    background-color: #394867;
+    margin: 2rem;
+  }
+  .certify::-webkit-scrollbar-thumb, .project::-webkit-scrollbar-thumb {
+    background-color: #80f0fb;
+
+  }
+  .scontain{
+    display: flex;
+    height: 20rem;
+    width: 15rem;
+    flex-direction: column;
+  }
+  .small p{
+    font-family:"Bahnschrift";
+    margin-top: -0.5rem;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+  }
+  .small h2{
+    font-family:"Bahnschrift";
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+  .complete1{
+    width: 9rem;
+    height: 0.6rem;
+    background-color: #80f0fb;
+    border-radius: 1rem;
+  }
+  .complete2{
+    width: 8.8rem;
+    height: 0.6rem;
+    background-color: #80f0fb;
+    border-radius: 1rem;
+  }
+  .complete3{
+    width: 7.5rem;
+    height: 0.6rem;
+    background-color: #80f0fb;
+    border-radius: 1rem;
+  }
+  .complete4{
+    width: 5.5rem;
+    height: 0.6rem;
+    background-color: #80f0fb;
+    border-radius: 1rem;
+  }
+  .small h3{
+    font-family:"Bahnschrift";
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+.range{
+    width: 10rem;
+    height: 0.6rem;
+    background-color: #ddd;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    margin-top: -0.5rem;
+}
+.project{
+  display: flex;
+  height: 46rem ;
+  width: 75rem;
+  overflow-x: auto;
+  margin: auto auto auto auto;
+  justify-content: space-between;
+  word-wrap: break-word; 
+}
+
+.container6 h2{
+  position: absolute;
+  font-family:"Bahnschrift";
+  margin-left: 47%;
+}
+.card{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    height: 35rem;
+    width: 47rem;
+    text-align: center;
+    background-color:#212A3E;
+   display: flex;
+   flex-direction: column;
+    margin: 5rem 3rem auto auto;
+    display: flex;
+    text-align: left;
+    font-family:"Bahnschrift";
+    font-size: 1rem;
+    padding: 2rem;
+}
+.product{
+  height: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4rem ;
+}
+.product img{
+  height: 14.5rem;
+  border: 0.7rem double #394867 ;
+  
+}
+.card .para{
+  margin-top: 0rem;
+  display: flex;
+  height: 30rem;
+  width: 32rem;
+ 
+}
+.links{
+  text-align: center;
+}
+.links:hover{
+  color: #80f0fb;
+}
+.container8 input{
+  height: 1.6rem;
+  width: 20rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 6px 10px 0 rgba(253, 246, 246, 0.4);
+  font-family: "Bahnschrift";
+  border: #212A3E;
+  margin-left: 2%;
+  margin-top: 4rem;
+  opacity: 0.7;
+
+}
+input[type=text], input[type=email]{
+  padding: 5px 7px;
+}
+.container8 label{
+  font-size: 1.4rem;
+  font-family: "Bahnschrift";
+  margin-left: 2rem;
+  
+}
+.container8 h2{
+  margin-left: 25%;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  body{
+    background-color: #F1F6F9;
+  }
+  .container4{
+    height: 68rem;
+    min-width: 60rem;
+    margin-left: 20rem;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+.container2{
+    height: 20rem;
+    width: 60rem;
+}
+.container2 .profile{
+    height: 15rem;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 50%;
+    border: 1rem double #394867 ;
+    border-radius: 1.5rem;
+    padding: 1rem;
+
+}
+.container3{
+    margin-top: 30rem;
+    margin-left: 5rem;
+    height: 20rem;
+    width: 50rem;
+    font-family:"Bahnschrift";
+}
+.container3 p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+.bg1{
+     display: none;
+}
+.page2{
+    margin-top: 10rem;
+    height: 130vh;
+}
+.container5{
+    min-height: 65rem;
+    min-width: 60rem;
+    background-color: #394867;
+    margin-left: 20rem;
+    margin-right: auto;
+}
+.container6{
+  min-height: 65rem;
+  width: 60rem;
+  background-color: #394867;
+  margin-left: 20rem;
+  margin-right: auto;
+  margin-top: 18rem;
+  flex-wrap: wrap;
+}
+
+.page3{
+  margin-top: 10rem;
+}
+}
